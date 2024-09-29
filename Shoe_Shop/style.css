@@ -960,7 +960,8 @@ footer .footer_main .tag .search_bar button {
 
   section .main .main_content .main_image img {
     width: 90%;
-    margin: 0 auto;
+    position: static;
+    /* margin: 0 auto; */
   }
 
   section .main .main_content .main_text {
