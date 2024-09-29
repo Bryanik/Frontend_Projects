@@ -9,6 +9,12 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Center elements and eliminate extra side-spaces */
+html,
+body {
+  overflow-x: hidden;
+}
+
 ::-webkit-scrollbar {
   width: 15px;
 }
@@ -1204,7 +1210,6 @@ footer .footer_main .tag .search_bar button {
     position: relative;
     top: 0;
     background-image: none;
-    
   }
 
   .login_form .left img {
