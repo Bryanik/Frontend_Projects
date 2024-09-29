@@ -953,6 +953,9 @@ footer .footer_main .tag .search_bar button {
     background-size: 120%;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   section .main .main_content .main_image img {
